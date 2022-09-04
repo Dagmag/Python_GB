@@ -8,6 +8,41 @@
 
 # РЕШЕНИЕ:
 
+# Первое решение
+
+day = int(input('Введите номер дня недели: '))
+if day > 7 or day < 1:
+    print('Пожалуйста, введите значение от 1 до 7')
+elif day == 6 or day == 7:
+    print("Да, сегодня выходные!")
+else:
+    print("Нет, это не выходные!")
+
+
+# Второе решение
+
+# def InputNumbers(inputText):
+#     is_OK = False
+#     while not is_OK:
+#         try:
+#             number = int(input(f"{inputText}"))
+#             is_OK = True
+#         except ValueError:
+#             print("Это не число!")
+#     return number
+
+
+# def checkNumber(num):
+#     if 6 <= num <= 7:
+#         print("Выходной")
+#     elif 0 < num < 6:
+#         print("Нет")
+#     else:
+#         print("число вне пределов 7 дней")
+
+
+# num = InputNumbers("Введите число: ")
+# checkNumber(num)
 
 # 1. Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
 # 2. Напишите программу, которая принимает на вход координаты точки(X и Y), причём X ≠ 0 и Y ≠ 0 и выдаёт номер четверти плоскости, в которой находится эта точка(или на какой оси она находится).
