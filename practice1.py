@@ -271,6 +271,13 @@
 # else:
 #     print('No')
 
-n = int(input())
-for n in range(n):
-    print(n+1)
+# n = int(input())
+# for n in range(n):
+#     print(n+1)
+
+
+# def new_string(symdol, count):
+#     return symdol * count
+
+
+# print(new_string('!', 5))

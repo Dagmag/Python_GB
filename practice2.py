@@ -122,17 +122,46 @@
 #     age >= 60
 #     print('старость')
 
-a, b, c = int(input()), int(input()), int(input())
-if a >= 0:
-    num1 = a
+# a, b, c = int(input()), int(input()), int(input())
+# if a >= 0:
+#     num1 = a
+# else:
+#     num1 = 0
+# if b >= 0:
+#     num2 = b
+# else:
+#     num2 = 0
+# if c >= 0:
+#     num3 = c
+# else:
+#     num3 = 0
+# print(num1 + num2 + num3)
+
+# colors = ['red', 'green', 'blue']
+# data = open('file.txt', 'a')
+# data.writelines(colors)
+# data.write('\nLine \n')
+# data.close()
+
+# with open('file.txt', 'a') as data:
+#     data.write('Line1 \n')
+#     data.write('Line2 \n')
+
+
+# path = 'file.txt'
+# data = open(path, 'r')
+# for line in data:
+#     print(line)
+# data.close()
+# exit()
+
+# import practice1 as p
+# print(new_string)
+
+num1 = int(input('Введите 1 число: '))
+num2 = int(input('Введите 2 число: '))
+
+if num1 % num2:
+    print('Не кратно, остаток', num1 % num2)
 else:
-    num1 = 0
-if b >= 0:
-    num2 = b
-else:
-    num2 = 0
-if c >= 0:
-    num3 = c
-else:
-    num3 = 0
-print(num1 + num2 + num3)
+    print('Кратно')
